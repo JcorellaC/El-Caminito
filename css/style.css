@@ -1,0 +1,49 @@
+/* ---------------- Estilos Globales ---------------- */
+
+*{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+/* ---------------- Estilos del Home ---------------- */
+.header-home{
+	background: url(../img/banner.jpg) no-repeat center;
+	background-size: cover;
+	height: 430px;
+}
+
+.logo{
+	position: absolute;
+	width: 100px;
+	left: 175px;
+}
+
+.first-nav{
+	background-color: #f1f1f1;
+	height: 56px;
+	text-align: center;
+}
+
+.first-nav a{
+	font-size: 1.2rem;
+	text-decoration: none;
+}
+
+.first-nav li{
+	display:inline-block;
+	list-style: none;
+}
+
+.first-nav li ul li{
+	display:block;
+}
+
+.first-nav li ul{
+	position: fixed;
+	display: none;
+}
+
+.first-nav li:hover ul{
+	display: block;
+}
