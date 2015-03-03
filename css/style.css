@@ -1,7 +1,6 @@
 /* ---------------- Estilos Globales ---------------- */
 
 *{
-	overflow: hidden;
 	margin: 0;
 	padding: 0;
 }
@@ -20,12 +19,13 @@
 }
 
 .first-nav{
-	background-color: #f1f1f1;
+	background-color: #ddd;
 	height: 56px;
 	text-align: center;
 }
 
 .first-nav a{
+	color: #444;
 	font-size: 1.2rem;
 	text-decoration: none;
 }
@@ -33,17 +33,9 @@
 .first-nav li{
 	display:inline-block;
 	list-style: none;
+	padding: 17px;
 }
 
-.first-nav li ul li{
-	display:block;
-}
-
-.first-nav li ul{
-	position: fixed;
-	display: none;
-}
-
-.first-nav li:hover ul{
-	display: block;
+.first-nav li:hover{
+	background-color: #bbb;
 }
